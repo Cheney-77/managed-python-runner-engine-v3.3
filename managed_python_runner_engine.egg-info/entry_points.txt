@@ -1,0 +1,4 @@
+[console_scripts]
+mpr-agent = runner_engine.worker.agent:main
+mpr-publish = runner_engine.publisher:main
+mpr-runner = runner_engine.app:main

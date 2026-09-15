@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: managed-python-runner-engine
+Version: 3.3.0
+Summary: A small, security-oriented Python operator runner for NiFi
+Requires-Python: >=3.11
+Requires-Dist: PyYAML>=6.0
+Provides-Extra: grpc
+Requires-Dist: grpcio>=1.65; extra == "grpc"
+Requires-Dist: grpcio-tools>=1.65; extra == "grpc"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"

@@ -1,0 +1,6 @@
+name: json-to-csv
+entrypoint: main:process
+input_attributes:
+  - filename
+output_attributes:
+  - mime.type

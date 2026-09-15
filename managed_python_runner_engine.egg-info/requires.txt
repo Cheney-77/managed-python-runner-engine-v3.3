@@ -1,0 +1,8 @@
+PyYAML>=6.0
+
+[dev]
+pytest>=8.0
+
+[grpc]
+grpcio>=1.65
+grpcio-tools>=1.65
